@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="nim.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12" id="intro">
+            <h1>Welcome to Nim!</h1>
+            <p>You and the computer will alternate turns until there are no coins left. You may
+                remove either 1, 2, or 3 coins per turn. The object of the game is to be the player who removes the last coin from the board.
+
+            </p>
+        </div>
+        <div class="col-xs-12 container">
+            <div class="gameBody">
+
+            </div>
+        </div>
+
+        <div class="col-xs-12 container">
+            <div class="coinSlot">
+                <p id="winner"></p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 container buttonCont">
+            <div class="endTurnButton">
+                <button class="btn btn-primary">End Turn</button>
+            </div>
+
+            <div class="startOverButton">
+                <button class="btn btn-primary">Start Over</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

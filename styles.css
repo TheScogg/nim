@@ -1,0 +1,102 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.options {
+    background-color: lightblue;
+}
+
+#intro {
+    background-color: #990400;
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;}
+
+.container {
+    background-color: navy;
+    padding: 15px;
+    text-align: center;
+    width: 1000px;
+}
+
+.buttonCont {
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+}
+
+.coinTop {
+    background-color: gray;
+    background-image: url("../img/quarter.jpg");
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.coinBottom {
+    background-color: gray;
+    background-image: url("../img/quarterBack.jpg");
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gameBody {
+    background-color: #990400;
+    height: 100%;
+    padding: 15px;
+    display: inline-block;
+    /*margin: auto;*/
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+.coinSlot {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 120px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#winner {
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+}
+
+.endTurnButton, .startOverButton {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+    .coinTop {
+        height: 35px;
+        width: 35px;
+    }
+
+    .coinBottom {
+        height: 80px;
+        width: 80px;
+    }
+
+    #intro h1 {
+        margin: 0px;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+    }
+
+}
